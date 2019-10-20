@@ -1,0 +1,160 @@
+.hero {
+  margin-left: 405px;
+  margin-right: 405px;
+  width: 1110px;
+}
+
+.nav {
+  margin-top: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  direction: row;
+  height: 17px;
+}
+
+.nav a {
+  margin-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav a:first-child {
+  margin-left: 0;
+}
+
+.shopcard_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 101px;
+}
+
+.shopcard {
+  margin-top: -7px;
+}
+
+.arrow_shopcard {
+  margin-left: 15.25px;
+  margin-top: 2px;
+}
+
+.logo_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 201px;
+  height: 40px;
+  margin-top: -11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo_container .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.logo_container .logoName {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.slyder_container {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left_slyder_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 570px;
+  height: 224px;
+}
+
+.left_slyder_container span {
+  margin-bottom: 35px;
+}
+
+.right_slyder_container {
+  left: -30px;
+  position: relative;
+  width: 556px;
+  height: 377px;
+}
+
+.right_slyder_container span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.right_slyder_container span:last-child {
+  margin-top: 14px;
+}
+
+.shoe {
+  width: 556px;
+  height: 377px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main_btn {
+  padding: 17px 30px 18px 29px;
+  background-color: #D7B399;
+  color: #ffffff;
+  display: inline-block;
+  border: none;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.arrow_down {
+  width: 5px;
+  height: 4px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.arrow_right {
+  width: 21px;
+  height: 8px;
+}
+
+.arrow_shopcard {
+  width: 46px;
+  height: 17px;
+}
+
+.shopcard {
+  width: 30px;
+  height: 28px;
+}
+
+.social {
+  width: 24px;
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */
