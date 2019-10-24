@@ -176,9 +176,9 @@
 }
 
 .arrow-btn {
-  padding: 15px 30px 15px 30px;
   background-color: #D7B399;
   width: 80px;
+  height: 30px;
   text-align: center;
 }
 
@@ -208,22 +208,106 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: Montserrat;
 }
 
-.men_women-col {
+.collection_pic {
+  margin-top: 79px;
+  width: 190px;
+  height: 171px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.men-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50vw;
+  height: 250px;
+  background-color: #F9F6F1;
 }
 
 .men-col {
-  width: 100%;
-  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 25px;
+  width: 366px;
+  height: 132px;
+  margin-top: 61px;
+  margin-bottom: 58px;
+  margin-left: 425px;
+}
+
+.men-col .arrow-btn {
+  margin-top: 15px;
+}
+
+.women-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 250px;
+  background-color: #F4F4F4;
 }
 
 .women-col {
-  width: 100%;
+  margin-top: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 25px;
+  width: 366px;
+  height: 132px;
+  margin-bottom: 58px;
+  margin-left: 36px;
+}
+
+.women-col .arrow-btn {
+  margin-top: 15px;
+}
+
+.catalog {
+  font-family: Montserrat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1110px;
+  height: 472px;
   border: 1px solid black;
+}
+
+.catalog ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.catalog li {
+  width: 237px;
+  height: 236px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog span {
+  display: block;
+  margin-top: 186px;
 }
 
 .arrow_down {
