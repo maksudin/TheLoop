@@ -1,222 +1,17 @@
-.body
-    font-family: Montserrat;
+body
+    font-family: Montserrat
+    // text-rendering: optimizeLegibility
+    // скрывает vertical scrollbar
+    max-width: 100vw
+    overflow-x: hidden
 
-.hero
-    margin-left: auto
-    margin-right: auto
-    width: 1110px
-    font-family: Montserrat;
-
-.h_container
-    width: 100vw
-    background-color: #F9F6F1
-    background-size: cover
-    margin: auto
-    border: 1px solid #F9F6F1
-    
-        
-.nav
-    margin-top: 61px
-    display: flex
-    direction: row
-    height: 17px
-
-    a
-        margin-left: 35px
-        display: flex
-        &:first-child
-            margin-left: 0
-
-.shopcard_container
-    display: flex
-    margin-left: 101px
-
-.shopcard
-    margin-top: -7px
-
-.arrow_shopcard
-    margin-left: 15.25px
-    margin-top: 2px
-
-.logo_container
-    display: flex
-    width: 201px
-    height: 40px
-    margin-top: -11px
-    // margin-left: 91px
-    justify-content: center
-
-    .logo
-        width: 40px
-        height: 40px
-    .logoName
-        margin-left: 20px
-        margin-top: 10px
-
-.slyder_container
-    margin-top: 250px
-    display: flex
-
-.left_slyder_container
-    display: flex
-    flex-direction: column
-    width: 570px
-
-    height: 224px
-    span
-        margin-bottom: 35px
-
-.right_slyder_container
-    left: -30px
-    width: 556px
-    position: relative
-    height: 377px
-    background-repeat: no-repeat
-    background-position: center
-    background-size: cover
-
-    span
-        display: flex
-        justify-content:  right
-        line-height: 14px
-
-        top: 40px
-
-        &:first-child
-            margin-top: 40px
-            margin-right: 7px
-        &:nth-child(2)
-            padding-top: 14px
-
-.rect_buttons
-    display: flex
-    margin-top: 249px
-    justify-content: center
-    padding-bottom: 70px
-    div
-        margin-left: 15px
-
-.rect_btn
-    width: 40px;
-    height: 7px;
-    left: 857px;
-    top: 723px;
-    background-color: #CECECE;
-
-.rect_btn_highligted
-    width: 40px;
-    height: 7px;
-    left: 857px;
-    top: 723px;
-    margin-left: 15px
-    background-color: #D7B399;
-
-.main_btn
-    padding: 17px 30px 18px 29px
-    background-color: #D7B399
-    color: #ffffff
-    display: inline-block
-    border: none
-    flex-shrink: 0
-    width: max-content
-    min-width: 80px
-    text-align: center
-
-.arrow-btn
-    // padding: 15px 30px 15px 30px
-    background-color: #D7B399
-    width: 80px
-    height: 30px
-    text-align: center
-        
-.free_delivery
-    width: 100vw
-    height: 235px
-    background-color: #212121
-    color: #ffffff
-    font-family: Montserrat;
-    text-align: center
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-
-.collections
-    display: flex
-    font-family: Montserrat;
-
-.collection_pic
-    margin-top: 79px
-    width: 190px
-    height: 171px
-    background-repeat: no-repeat
-    background-position: center
-    background-size: cover
-
-.men-container
-    display: flex
-    width: 50vw
-    height: 250px;
-    background-color: #F9F6F1
-
-.men-col
-    display: flex
-    flex-direction: column
-    line-height: 25px
-    width: 366px
-    height: 132px
-    margin-top: 61px
-    margin-bottom: 58px
-    margin-left: 425px
-    .arrow-btn
-        margin-top: 15px
-
-.women-container
-    display: flex
-    width: 50vw
-    height: 250px;
-    background-color: #F4F4F4
-
-.women-col
-    margin-top: 61px
-    display: flex
-    flex-direction: column
-    line-height: 25px
-    width: 366px
-    height: 132px
-    margin-bottom: 58px
-    margin-left: 36px
-    .arrow-btn
-        margin-top: 15px
-
-
-.catalog
-    font-family: Montserrat;
-    display: flex
-    width: 1110px
-    height: 472px
-    border: 1px solid black
-    ul
-        display: flex
-        flex-wrap: wrap
-    li
-        width: 237px
-        height: 236px
-        list-style: none
-        background-repeat: no-repeat
-        background-position: center
-        background-size: cover
-    span
-        display: block
-        margin-top: 186px
-
-
-
+a
+    text-decoration: none
 
 .arrow_down
     width: 5px
     height: 4px
-    margin-top: 10px
+    margin-top: 7px
     margin-left: 5px
 
 .arrow_right
@@ -235,7 +30,425 @@
     width: 24px
     height: 24px
 
-a
-    text-decoration: none
-    color: black
+.hero
+    margin-left: auto
+    margin-right: auto
+    width: 1110px
+
+.h_container
+    width: 100vw
+    background-color: #F9F6F1
+    background-size: cover
+    margin: auto
+    border: 1px solid #F9F6F1
+        
+.nav
+    margin-top: 61px
+    display: flex
+    direction: row
+    height: 17px
+    a
+        margin-left: 35px
+        color: #212121
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        line-height: 17px
+        letter-spacing: 0.03em
+        display: flex
+        &:first-child
+            margin-left: 0
+
+.shopcard_container
+    display: flex
+    margin-left: 101px
+
+.shopcard
+    margin-top: -7px
+
+.arrow_shopcard
+    margin-left: 15.25px
+    margin-top: 2px
+
+.logo_container
+    display: flex
+    // width: 201px
+    height: 40px
+    margin-top: -11px
+    // margin-left: 91px
+    justify-content: center
+    align-items: center
+
+    .logo
+        width: 40px
+        height: 40px
+    .logoName
+        margin-left: 20px
+        // margin-top: 10px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+.slyder_container
+    margin-top: 250px
+    display: flex
+    h2
+        
+
+
+.left_slyder_container
+    display: flex
+    flex-direction: column
+    width: 570px
+
+    height: 224px
+    h2
+        font-style: normal
+        font-weight: normal
+        font-size: 30px
+        line-height: 37px
+        letter-spacing: 0.02em
+    span
+        font-style: normal
+        font-weight: bold
+        font-size: 55px
+        line-height: 67px
+        letter-spacing: 0.04em
+    .main_btn
+        margin-top: 55px
+
+        
+
+.right_slyder_container
+    left: -30px
+    width: 556px
+    position: relative
+    height: 377px
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+
+    span
+        display: flex
+        justify-content:  right
+        line-height: 14px
+
+        top: 40px
+
+        font-weight: bold
+        font-style: normal
+        text-align: right
+        text-transform: uppercase
+        &:first-child
+            margin-top: 40px
+            margin-right: 7px
+            font-size: 24px
+            line-height: 29px
+            letter-spacing: 0.05em
+            text-decoration-line: line-through
+        &:nth-child(2)
+            padding-top: 14px
+            font-size: 42px
+            line-height: 51px
+            letter-spacing: 0.02em
+            color: #D84033;
+
+
+
+.rect_buttons
+    display: flex
+    margin-top: 249px
+    justify-content: center
+    padding-bottom: 70px
+    div
+        margin-left: 15px
+
+.rect_btn
+    width: 40px
+    height: 7px
+    left: 857px
+    top: 723px
+    background-color: #CECECE
+
+.rect_btn_highligted
+    width: 40px
+    height: 7px
+    left: 857px
+    top: 723px
+    margin-left: 15px
+    background-color: #D7B399
+
+.main_btn
+    background-color: #D7B399
+    color: #ffffff
+    display: flex
+    border: none
+    flex-shrink: 0
+    width: 220px
+    height: 55px
+    justify-content: center
+    align-items: center
+    margin:
+        // top: 103px
+        // right: auto
+        // left: auto
+        bottom: 150px
+    
+
+.arrow-btn
+    background-color: #D7B399
+    width: 80px
+    height: 30px
+    text-align: center
+        
+.free_delivery
+    width: 100vw
+    height: 235px
+    background-color: #212121
+    color: #ffffff
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    span
+        font-style: normal
+        // font-weight: bold
+        font-size: 30px
+        line-height: 37px
+
+        /* identical to box height */
+        text-align: center
+        letter-spacing: 0.02em
+        margin-bottom: 23px
+    p
+        font-style: normal
+        font-weight: 300
+        font-size: 21px
+        line-height: 26px
+
+        /* identical to box height */
+        text-align: center
+
+        color: #FFFFFF
+        
+
+.collections
+    display: flex
+    width: 100vw
+
+.collection_pic
+    margin-top: 79px
+    width: 190px
+    height: 171px
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    margin-right: 0
+
+.men-container
+    display: flex
+    width: 50vw
+    height: 250px
+    background-color: #F9F6F1
+    justify-content: flex-end
+
+.men-col
+    display: flex
+    flex-direction: column
+    line-height: 25px
+    width: 366px
+    height: 132px
+    margin-top: 61px
+    margin-bottom: 58px
+
+    div
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 29px
+        letter-spacing: 0.03em
+
+    .arrow-btn
+        margin-top: 15px
+    
+
+
+
+.women-container
+    display: flex
+    width: 50vw
+    height: 250px
+    background-color: #F4F4F4
+
+.women-col
+    margin-top: 61px
+    display: flex
+    flex-direction: column
+    line-height: 25px
+    width: 366px
+    height: 132px
+    margin-bottom: 58px
+    margin-left: 36px
+    div
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 29px
+        letter-spacing: 0.03em
+    .arrow-btn
+        margin-top: 15px
+
+
+.catalog
+    position: relative
+    ul
+        margin-top: 0
+        display: flex
+        flex-wrap: wrap
+    li
+        width: 237px
+        height: 236px
+        list-style: none
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
+        &:nth-child(odd)
+            background-color:  #F4F4F4
+        &:nth-child(even)
+            background-color:  #F9F6F1
+    span
+        display: block
+        margin-top: 186px
+
+
+
+.new_models_pic
+    width: 205px;
+    height: 211px;
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+    margin-bottom: 25px
+
+.new_models_title
+    margin-top: 150px
+    margin-bottom: 103px
+    text-align: center
+
+.new_models_flex 
+    display: flex
+    justify-content: center
+    padding-right: 30px
+    a
+        color: black
+        text-align: center
+        display: flex
+        flex-direction: column
+        span:last-child 
+            margin-top: 15px
+            color: #D7B399
+            font-weight: bold
+.center
+    margin-right: auto
+    margin-left: auto
+
+.subscribe_container
+    width: 100vw
+    height: 235px
+    background-color: #212121
+    color: #ffffff
+    display: flex
+    justify-content: center
+    align-items: center
+    .main_btn
+        width: 185px
+        height: 40px
+        margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 35px
+    input
+        width: 255px
+        height: 40px
+        box-sizing: border-box
+        background-color: #F9F6F1
+        margin-left: 60px
+        text-align: left
+        text-indent: 20px
+        border: none
+
+
+.footer
+    width: 100vw
+    height: 311px
+    background-color: #212121
+    color: #ffffff
+    color: white
+    margin-right: 0
+    .footer_container
+        padding-top: 80px
+        padding-bottom: 80px
+        display: flex
+        line-height: 22px
+    .logo_container
+        margin-top: 0
+        color: white
+    .logo_footer_container
+        margin-left: 405px
+        display: flex
+        flex-direction: column
+        width: 200px
+        margin-right: 223px
+        span
+            margin-top: 39px
+            width: 200px
+            color: #CBCFD4
+    
+.footer-links-container
+    display: flex
+    margin-left: 224px
+    
+.footer-links-col
+    display: flex
+    flex-direction: column
+    width: max-content
+    // height: 151px
+    .footer_link_title
+        color: white
+        font-weight: bold
+        font-style: normal
+        font-weight: bold
+        font-size: 10px
+        line-height: 12px
+        margin-bottom: 10px
+    a
+        color: #CBCFD4
+        margin-bottom: 10px
+
+    &:nth-child(1)
+        margin-right: 84px
+        width: 137px
+    &:nth-child(2)
+        margin-right: 76px
+        width: 150px
+    &:nth-child(3)
+        margin-right: 53px
+        width: 160px
+    span
+        margin-left: 5px
+
+
+.bottom_line
+    display: flex
+    justify-content: space-around;
+    align-items: center
+    margin:
+        top: 30px
+        bottom: 23px
 
