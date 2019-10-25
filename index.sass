@@ -39,7 +39,6 @@ a
     width: 100vw
     background-color: #F9F6F1
     background-size: cover
-    margin: auto
     border: 1px solid #F9F6F1
         
 .nav
@@ -85,13 +84,13 @@ a
     .logoName
         margin-left: 20px
         // margin-top: 10px
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
+        font-family: Montserrat
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 29px
+        letter-spacing: 0.05em
+        text-transform: uppercase
 
 .slyder_container
     margin-top: 250px
@@ -155,7 +154,7 @@ a
             font-size: 42px
             line-height: 51px
             letter-spacing: 0.02em
-            color: #D84033;
+            color: #D84033
 
 
 
@@ -265,19 +264,20 @@ a
     height: 132px
     margin-top: 61px
     margin-bottom: 58px
-
-    div
-        font-style: normal
-        font-weight: 500
-        font-size: 24px
-        line-height: 29px
-        letter-spacing: 0.03em
+    font-style: normal
+    .men-col-text
+        div:first-child
+            font-weight: 500
+            font-size: 24px
+            line-height: 29px
+            letter-spacing: 0.03em
+        div:last-child
+            font-weight: 300
+            font-size: 16px
+            line-height: 20px
 
     .arrow-btn
         margin-top: 15px
-    
-
-
 
 .women-container
     display: flex
@@ -294,12 +294,16 @@ a
     height: 132px
     margin-bottom: 58px
     margin-left: 36px
-    div
-        font-style: normal
-        font-weight: 500
-        font-size: 24px
-        line-height: 29px
-        letter-spacing: 0.03em
+    .women-col-text
+        div:first-child
+            font-weight: 500
+            font-size: 24px
+            line-height: 29px
+            letter-spacing: 0.03em
+        div:last-child
+            font-weight: 300
+            font-size: 16px
+            line-height: 20px
     .arrow-btn
         margin-top: 15px
 
@@ -324,36 +328,74 @@ a
     span
         display: block
         margin-top: 186px
-
-
+        font-style: normal
+        font-weight: 300
+        font-size: 21px
+        line-height: 26px
+        /* identical to box height */
+        letter-spacing: 0.03em
+        color: #000000
 
 .new_models_pic
-    width: 205px;
-    height: 211px;
+    width: 205px
+    height: 211px
     background-repeat: no-repeat
     background-position: top
     background-size: cover
     margin-bottom: 25px
+    margin-left: auto
+    margin-right: auto
 
 .new_models_title
     margin-top: 150px
     margin-bottom: 103px
     text-align: center
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 44px
+
+    /* identical to box height */
+    letter-spacing: 0.04em
+    text-transform: uppercase
+
+    /* Black */
+    color: #212121
 
 .new_models_flex 
     display: flex
     justify-content: center
-    padding-right: 30px
     a
         color: black
         text-align: center
         display: flex
         flex-direction: column
-        span:last-child 
-            margin-top: 15px
-            color: #D7B399
-            font-weight: bold
+        font-style: normal
+        margin-right: 100px
+        justify-content: center
+
+        span
+            font-weight: 600
+            font-size: 14px
+            line-height: 17px
+        .border
+            position: relative
+            bottom: 330px
+            height: 350px
+            margin-bottom: -350px
+
+    
+
+.main-text
+    margin-top: 15px
+    color: #D7B399
+    font-weight: bold
+    font-size: 18px
+    line-height: 22px
+    color: #D7B399
+
 .center
+    margin-top: 103px
     margin-right: auto
     margin-left: auto
 
@@ -412,7 +454,8 @@ a
     
 .footer-links-container
     display: flex
-    margin-left: 224px
+    margin-left: auto
+    margin-right: auto
     
 .footer-links-col
     display: flex
@@ -446,7 +489,7 @@ a
 
 .bottom_line
     display: flex
-    justify-content: space-around;
+    justify-content: space-around
     align-items: center
     margin:
         top: 30px
