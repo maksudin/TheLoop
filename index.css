@@ -53,7 +53,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 17px;
 }
 
@@ -673,5 +676,91 @@ a {
           align-items: center;
   margin-top: 30px;
   margin-bottom: 23px;
+}
+
+@media screen and (max-width: 860px) {
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+  .nav a {
+    margin-left: 0;
+    line-height: 60px;
+    font-size: 20px;
+  }
+  .nav .logo_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav .shopcard_container {
+    margin-left: 0;
+    width: 100vw;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 40px;
+  }
+  .arrow_down {
+    margin-top: 30px;
+  }
+  .slyder_container {
+    margin-top: 450px;
+  }
+  .left_slyder_container {
+    width: 40vw;
+  }
+  .right_slyder_container {
+    width: 60vw;
+  }
+  .rect_buttons {
+    width: 100vw;
+  }
+  .collections {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .collections .men-container {
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .collections .women-container {
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .collections .women-container .women-col {
+    margin-left: 0;
+  }
+  .catalog {
+    width: 100vw;
+  }
+  .new_models_title {
+    width: 100vw;
+  }
+  .new_models_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+  .new-item {
+    margin-bottom: 120px;
+  }
+  .center {
+    margin-left: 25%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

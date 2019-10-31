@@ -1,6 +1,5 @@
 body
     font-family: Montserrat
-    // text-rendering: optimizeLegibility
     // скрывает vertical scrollbar
     max-width: 100vw
     overflow-x: hidden
@@ -44,7 +43,7 @@ a
 .nav
     margin-top: 61px
     display: flex
-    direction: row
+    flex-direction: row
     height: 17px
     a
         margin-left: 35px
@@ -56,7 +55,8 @@ a
         letter-spacing: 0.03em
         display: flex
         &:first-child
-            margin-left: 0
+            margin-left: 0  
+    
 
 .shopcard_container
     display: flex
@@ -495,3 +495,67 @@ a
         top: 30px
         bottom: 23px
 
+@media screen and ( max-width: 860px )
+    .nav
+        flex-direction: column
+        align-items: center
+        width: 100vw
+        margin-bottom: 50px
+        a
+            margin-left: 0
+            line-height: 60px
+            font-size: 20px
+        .logo_container
+            margin-top: 20px
+            margin-bottom: 20px
+        
+        .shopcard_container
+            margin-left: 0
+            width: 100vw
+            justify-content: flex-end
+            margin-right: 40px
+
+    .arrow_down
+        margin-top: 30px 
+
+    .slyder_container
+        margin-top: 450px
+    .left_slyder_container
+        width: 40vw
+    .right_slyder_container
+        width: 60vw
+    
+    .rect_buttons
+        width: 100vw
+    
+    .collections
+        flex-direction: column
+        .men-container
+            width: 100vw
+            justify-content: center
+        .women-container
+            width: 100vw
+            justify-content: center
+            .women-col
+                margin-left: 0
+    
+    .catalog
+        width: 100vw
+    
+    .new_models_title
+        width: 100vw
+    
+    .new_models_flex
+        flex-direction: column
+        width: 100vw
+    
+    .new-item
+        margin-bottom: 120px
+    
+    .center
+        margin-left: 25%
+        // margin-right: 50%       
+        
+    
+
+        
