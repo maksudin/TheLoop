@@ -842,5 +842,20 @@ a {
   .right_slyder_container {
     width: 100vw;
   }
+  .free_delivery span, .free_delivery p {
+    width: 80vw;
+  }
+  .men-col {
+    width: 70vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .women-col {
+    width: 70vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */
