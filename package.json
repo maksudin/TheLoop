@@ -11,5 +11,8 @@
   "devDependencies": {
     "gh-pages": "^2.1.1"
   },
-  "homepage": "http://maksudin.github.io/TheLoop"
+  "homepage": "http://maksudin.github.io/TheLoop",
+  "dependencies": {
+    "dragula": "^3.7.2"
+  }
 }
